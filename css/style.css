@@ -7,7 +7,6 @@
 body{
   font-family: 'Roboto', sans-serif;
   color: white;
-
 }
 
 
@@ -180,7 +179,7 @@ footer button{
 /*  head footer */
 
 /* lenguage and social contact */
-footer div.staff{
+footer div.footer-top{
   display: flex;
   padding: 2rem 0; 
 }
@@ -189,7 +188,7 @@ section.lenguage-social{
   width: 35%;
 }
 
-.staff h4{
+.footer-top h4{
   font-size: 1.5rem;
 }
 
@@ -231,7 +230,7 @@ footer li:first-child{
 
 /* last logo */
 
-div.last-logo{
+div.footer-bottom{
   padding: 1rem 0 2rem 0;
 }
 /* end last logo */
