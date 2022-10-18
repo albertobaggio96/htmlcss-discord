@@ -65,11 +65,11 @@ header p{
   margin: 1.5rem 0 1rem 0;
 }
 
-section.title-container button{
+div.title-container button{
   margin-right: 1rem;
 }
 
-section.title-container button:last-child{
+div.title-container button:last-child{
   background-color: black;
   color: white;
 }
