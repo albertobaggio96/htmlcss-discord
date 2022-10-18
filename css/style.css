@@ -36,7 +36,7 @@ header{
 
 
 /* nav section */
-header nav{
+header nav>div.flex{
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -55,7 +55,7 @@ header nav button{
 /* end nav section */
 
 /* main title */
-.title-container{
+div.title-container{
   margin: 2rem 8rem;
   text-align: center;
 }
@@ -87,13 +87,13 @@ main .container{
 }
 
 /* reverse section */
-main section.row{
+main div.row{
   display: flex;
   justify-content: space-between;
   margin: 2rem 0;
 }
 
-section.row img{
+div.row img{
   width: 60%;
 }
 
@@ -107,7 +107,7 @@ div.description-container h2{
 
 }
 
-main section.reverse{
+main div.reverse{
   flex-direction: row-reverse;
 }
 
@@ -120,15 +120,15 @@ main section.reverse{
 
 /* keep in touch section */
 
-section.keep-in-touch{
+div.keep-in-touch{
   text-align: center;
 }
 
-section.keep-in-touch h2{
+div.keep-in-touch h2{
   margin-bottom: 1rem;
 }
 
-section.keep-in-touch h3{
+div.keep-in-touch h3{
   line-height: 3rem;
   width: 35%;
   margin: 0 auto;
@@ -137,11 +137,11 @@ section.keep-in-touch h3{
   background-repeat: no-repeat;
 }
 
-section.keep-in-touch img{
+div.keep-in-touch img{
   width: 90%;
 }
 
-section.keep-in-touch button{
+div.keep-in-touch button{
   background-color: #899ddf;
   color: white;
 }
@@ -166,7 +166,7 @@ footer div.staff{
 }
 
 section.lenguage-social{
-  flex-grow: 2;
+  width: 30%;
   padding-right: 6rem;
 }
 
@@ -197,7 +197,7 @@ figure.social-icon img{
 /* column footer list */
 
 section.list{
-  flex-grow: 1;
+  width: calc(100%/4);
 }
 
 footer h4,
@@ -211,7 +211,7 @@ footer li:first-child{
 
 /* last logo */
 
-section.last-logo{
+div.last-logo{
   display: flex;
   justify-content: space-between;
   padding: 1rem 0 2rem 0;
