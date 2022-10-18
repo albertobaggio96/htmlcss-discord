@@ -1,0 +1,226 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Roboto', sans-serif;
+}
+
+.container{
+  width: 70%;
+  margin: 0 auto;
+}
+
+ul li{
+  margin-left: 1rem;
+  list-style: none;
+}
+
+button{
+  border: none;
+  border-radius: 15px;
+  padding: .5rem .5rem;
+  padding: .6rem .9rem;
+}
+/* header */
+
+header{
+  background-image: url(../img/jumbo.png);
+  background-size: cover;
+  padding: .5rem 0;
+  color: white;
+  height: 25rem;
+}
+
+
+/* nav section */
+header nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: .5rem; 
+  font-size: 0.7rem;
+}
+
+header ul{
+  display: flex;
+}
+
+header nav button{
+  background-color: white;
+
+}
+/* end nav section */
+
+/* main title */
+.title-container{
+  margin: 2rem 8rem;
+  text-align: center;
+}
+
+header h1{
+  font-size: 2.5rem;
+}
+
+header p{
+  margin: 1.5rem 0 1rem 0;
+}
+
+section.title-container button{
+  margin-right: 1rem;
+}
+
+section.title-container button:last-child{
+  background-color: black;
+  color: white;
+}
+
+/* end title section */
+/* end header */
+
+/* main */
+
+main .container{
+  margin: 5rem auto;
+}
+
+/* reverse section */
+main section.row{
+  display: flex;
+  justify-content: space-between;
+  margin: 2rem 0;
+}
+
+section.row img{
+  width: 60%;
+}
+
+div.description-container{
+  width: 30%;
+}
+
+div.description-container h2{
+  font-size: 2rem;
+  margin: 1.5rem 0 1rem 0;
+
+}
+
+main section.reverse{
+  flex-direction: row-reverse;
+}
+
+.gray{
+  background-color: #f6f6f6;
+  padding: .5rem 0;
+}
+
+/* end reverse section */
+
+/* keep in touch section */
+
+section.keep-in-touch{
+  text-align: center;
+}
+
+section.keep-in-touch h2{
+  margin-bottom: 1rem;
+}
+
+section.keep-in-touch h3{
+  line-height: 3rem;
+  width: 35%;
+  margin: 0 auto;
+  background-image: url(../img/stars.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+section.keep-in-touch img{
+  width: 90%;
+}
+
+section.keep-in-touch button{
+  background-color: #899ddf;
+  color: white;
+}
+
+/* end keep in touch section */
+/* end main */
+
+/* footer */
+  footer{
+    background-color: #23272a;
+    color: white;
+
+  }
+
+/*  head footer */
+
+/* lenguage and social contact */
+footer div.staff{
+  display: flex;
+  padding: 2rem 0; 
+  justify-content: space-between;
+}
+
+section.lenguage-social{
+  flex-grow: 2;
+  padding-right: 6rem;
+}
+
+.staff h4{
+  font-size: 1.5rem;
+}
+
+img.ita{
+  width: 1.5rem;
+  margin: 1rem 0;
+  vertical-align: middle;
+}
+
+select{
+  background-color: #23272a;
+  border: none;
+  color: white;
+}
+
+figure.social-icon img{
+  width: 1.5rem;
+  border-radius: 5px;
+  margin-right: 1.5rem;
+}
+
+/* end lenguage and social contact */
+
+/* column footer list */
+
+section.list{
+  flex-grow: 1;
+}
+
+footer h4,
+footer li:first-child{
+  color: #7289da;
+}
+
+/* end column footer list */
+/*  end head footer */
+
+
+/* last logo */
+
+section.last-logo{
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 0 2rem 0;
+
+}
+
+footer button{
+  background-color: #899ddf;
+  color: white;
+}
+/* end last logo */
+/* end footer */
