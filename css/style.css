@@ -191,10 +191,11 @@ select{
   color: white;
 }
 
-figure.social-icon img{
-  width: 1.5rem;
-  border-radius: 5px;
-  margin-right: 1.5rem;
+figure.social-icon a{
+  font-size: 1.4rem;
+  margin-right: 1rem;
+  color: white;
+  text-decoration: none;
 }
 
 /* end lenguage and social contact */
