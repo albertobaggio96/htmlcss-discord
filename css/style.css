@@ -5,10 +5,6 @@
   font-family: 'Roboto', sans-serif;
 }
 
-.container{
-  width: 70%;
-  margin: 0 auto;
-}
 
 p,
 li{
@@ -27,6 +23,15 @@ ul li{
   list-style: none;
 }
 
+.container{
+  width: 70%;
+  margin: 0 auto;
+}
+
+.flex-space-between{
+  display: flex;
+  justify-content: space-between;
+}
 /* header */
 
 header{
@@ -39,9 +44,7 @@ header{
 
 
 /* nav section */
-header nav>div.flex{
-  display: flex;
-  justify-content: space-between;
+header nav>div.flex-space-between{
   align-items: center;
   padding: .5rem; 
   font-size: 0.7rem;
@@ -94,13 +97,11 @@ main .container{
 }
 
 /* reverse section */
-main div.row{
-  display: flex;
-  justify-content: space-between;
+main div.flex-space-between{
   margin: 2rem 0;
 }
 
-div.row img{
+main div.flex-space-between img{
   width: 60%;
 }
 
@@ -148,7 +149,8 @@ div.keep-in-touch img{
   width: 100%;
 }
 
-div.keep-in-touch button{
+div.keep-in-touch button,
+footer button{
   background-color: #899ddf;
   color: white;
 }
@@ -169,7 +171,6 @@ div.keep-in-touch button{
 footer div.staff{
   display: flex;
   padding: 2rem 0; 
-  justify-content: space-between;
 }
 
 section.lenguage-social{
@@ -219,15 +220,7 @@ footer li:first-child{
 /* last logo */
 
 div.last-logo{
-  display: flex;
-  justify-content: space-between;
   padding: 1rem 0 2rem 0;
-
-}
-
-footer button{
-  background-color: #899ddf;
-  color: white;
 }
 /* end last logo */
 /* end footer */
