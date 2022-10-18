@@ -36,6 +36,7 @@ ul li{
 .flex-space-between{
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 /* header */
 
@@ -44,13 +45,10 @@ ul li{
 header>nav{
   background-color: #255ee9;
   padding: .5rem 0;
+  font-size: 0.8rem
 }
 
-header nav>div.flex-space-between{
-  align-items: center;
-  padding: .5rem; 
-  font-size: 0.7rem;
-}
+
 
 header ul{
   display: flex;
@@ -62,7 +60,6 @@ header ul{
 header section{
   background-image: url(../img/jumbo.png);
   background-size: cover;
-  padding: .5rem 0;
   height: 26rem;
 }
 
@@ -87,12 +84,13 @@ header p{
 
 header nav button,
 div.title-container button{
-  margin-right: 1rem;
+  background-color: white;
   color: black;
 }
 
 div.title-container button:last-child{
   color: white;
+  margin-left: 1rem;
   background-color: #23272a;
 }
 
@@ -204,7 +202,7 @@ select{
   color: white;
 }
 
-figure.social-icon a{
+figure.social-icon i{
   font-size: 1.4rem;
   margin-right: 1rem;
   color: white;
