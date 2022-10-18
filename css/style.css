@@ -2,9 +2,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
-
-body{
   font-family: 'Roboto', sans-serif;
 }
 
@@ -81,6 +78,10 @@ section.title-container button:last-child{
 /* end header */
 
 /* main */
+
+main{
+  color: #23272a  ;
+}
 
 main .container{
   margin: 5rem auto;
