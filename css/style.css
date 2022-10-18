@@ -2,7 +2,12 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+body{
   font-family: 'Roboto', sans-serif;
+  color: white;
+
 }
 
 
@@ -26,6 +31,7 @@ ul li{
 .container{
   width: 70%;
   margin: 0 auto;
+  height: 100%;
 }
 
 .flex-space-between{
@@ -34,16 +40,13 @@ ul li{
 }
 /* header */
 
-header{
-  background-image: url(../img/jumbo.png);
-  background-size: cover;
+/* nav section */
+
+header>nav{
+  background-color: #255ee9;
   padding: .5rem 0;
-  color: white;
-  height: 25rem;
 }
 
-
-/* nav section */
 header nav>div.flex-space-between{
   align-items: center;
   padding: .5rem; 
@@ -54,16 +57,25 @@ header ul{
   display: flex;
 }
 
-header nav button{
-  background-color: white;
-
-}
 /* end nav section */
 
 /* main title */
+header section{
+  background-image: url(../img/jumbo.png);
+  background-size: cover;
+  padding: .5rem 0;
+  height: 26rem;
+}
+
 div.title-container{
-  margin: 2rem 8rem;
+  display: flex;
   text-align: center;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  height: 100%;
+  align-items: center;
+  padding: 6rem;
 }
 
 header h1{
@@ -74,13 +86,15 @@ header p{
   margin: 1.5rem 0 1rem 0;
 }
 
+header nav button,
 div.title-container button{
   margin-right: 1rem;
+  color: black;
 }
 
 div.title-container button:last-child{
-  background-color: black;
   color: white;
+  background-color: #23272a;
 }
 
 /* end title section */
@@ -89,7 +103,7 @@ div.title-container button:last-child{
 /* main */
 
 main{
-  color: #23272a  ;
+  color: #23272a;
 }
 
 main .container{
@@ -161,8 +175,6 @@ footer button{
 /* footer */
   footer{
     background-color: #23272a;
-    color: white;
-
   }
 
 /*  head footer */
